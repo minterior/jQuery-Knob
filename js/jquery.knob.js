@@ -80,6 +80,7 @@
             this.$.data('kontroled', true);
 
             this.extend();
+            this.o.inputColor = this.o.inputColor || this.o.fgColor || '#87CEEB';
             this.o = $.extend(
                 {
                     // Config
